@@ -18,6 +18,7 @@ Class TestClass {
 		   console.log(((['Fizz'][i%3] || '') + (['Buzz'][i%5] || '')) || i)
 		} 
 		
+	function reverse(number=123456789) {
 	 	var reversed = 0;
 
 	 	while (number != 0) {
